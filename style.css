@@ -1,0 +1,126 @@
+body{
+   background-color: white;
+}
+#oc{
+    height: 550px;
+    width: 590px;
+    background-color: rgb(241, 232, 232);
+    left: 30%;
+    margin-top:6%;
+    position: relative;
+    margin-bottom: 3%;
+    border: 20px solid rgb(248, 243, 243);
+    border-radius: 50%;  
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+}
+#ic{
+    height: 550px;
+    width: 590px;
+    background-image: url(logo.jpg );
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    opacity:black,.2;
+  
+}
+#circle{
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+    background-color:  rgb(9, 10, 9);
+    left: 48%;
+    margin-top: 46%;
+    position: absolute;
+}
+#hour,#min,#sec{
+   
+    transform-origin: bottom;
+    position: absolute;
+       
+}
+
+#hour{
+    background-color: black;
+    height: 150px;
+    width: 16px;
+   top: 24.6%;
+   border-radius: 50%;
+   left: 49%;
+
+}
+#min{
+    background-color: rgb(0, 0, 0);
+    height: 220px;
+    width: 11px;
+    border-radius: 50%;
+    top: 12%;
+    left: 49.5%;
+
+}
+#sec{
+    background-color: rgb(0, 224, 231);
+    height: 230px;
+    width: 4px;
+    top: 10%;
+    border-radius: 50%;
+    left: 50%;
+    
+
+}
+.pop{
+    
+    font-size: 45px;
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+
+}
+.num1{
+  top: 7%;
+  left: 23%;
+}
+.num2{
+    top: 23%;
+    left: 39%;
+}
+.num3{
+    top: 44%;
+    left: 44%;
+    
+   
+}
+.num4{
+    top:69%;
+    left: 38%;
+}
+.num5{
+   top: 86%;
+   left: 23%;
+}
+.num6{
+    top: 90%;
+    left: 0%;
+}
+.num7{
+    top: 86%;
+    right: 130px;
+}
+.num8{
+    top: 68%;
+    right: 230px;
+}
+.num9{
+    top: 45%;
+    right: 266px;
+}
+.num10{
+    top: 22%;
+    right: 230px;
+}
+.num11{
+    top: 7%;
+    right: 140px;
+    
+}
